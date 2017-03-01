@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { MenuController, NavController, Slides } from 'ionic-angular';
-import { Storage } from '@ionic/storage';
+// import { Storage } from '@ionic/storage';
 import { TabsPage } from '../tabs/tabs';
 
 @Component({
@@ -13,13 +13,13 @@ export class TutorialPage {
 
   constructor(
     public navCtrl: NavController,
-    public menu: MenuController,
-    public storage: Storage
+    public menu: MenuController/*,
+    public storage: Storage*/
   ) { }
 
   startApp() {
     this.navCtrl.push(TabsPage).then(() => {
-      this.storage.set('hasSeenTutorial', 'true');
+      // this.storage.set('hasSeenTutorial', 'true');
     })
   }
 

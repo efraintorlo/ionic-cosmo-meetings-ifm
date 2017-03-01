@@ -53,9 +53,9 @@ export class AccountPage {
   }
 
   getUsername() {
-    this.userData.getUsername().then((username) => {
+    /*this.userData.getUsername().then((username) => {
       this.username = username;
-    });
+    });*/
   }
 
   changePassword() {

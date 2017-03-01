@@ -2,7 +2,7 @@ import { Component, ViewChild } from '@angular/core';
 
 import { Events, MenuController, Nav, Platform } from 'ionic-angular';
 import { Splashscreen } from 'ionic-native';
-import { Storage } from '@ionic/storage';
+// import { Storage } from '@ionic/storage';
 
 import { AboutPage } from '../pages/about/about';
 import { AccountPage } from '../pages/account/account';
@@ -61,12 +61,12 @@ export class ConferenceApp {
     public userData: UserData,
     public menu: MenuController,
     public platform: Platform,
-    public confData: ConferenceData,
-    public storage: Storage
+    public confData: ConferenceData/*,
+    public storage: Storage*/
   ) {
 
     // Check if the user has already seen the tutorial
-    this.storage.get('hasSeenTutorial')
+    /*this.storage.get('hasSeenTutorial')
       .then((hasSeenTutorial) => {
         if (hasSeenTutorial) {
           this.rootPage = TabsPage;
@@ -74,15 +74,18 @@ export class ConferenceApp {
           this.rootPage = TutorialPage;
         }
         this.platformReady()
-      })
+      })*/
+
+		this.rootPage = TutorialPage;
+		this.platformReady();
 
     // load the conference data
     confData.load();
 
     // decide which menu items should be hidden by current login status stored in local storage
-    this.userData.hasLoggedIn().then((hasLoggedIn) => {
+    /*this.userData.hasLoggedIn().then((hasLoggedIn) => {
       this.enableMenu(hasLoggedIn === true);
-    });
+    });*/
 
     this.listenToLoginEvents();
   }
