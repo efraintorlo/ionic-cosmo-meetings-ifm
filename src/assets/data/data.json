@@ -30,7 +30,7 @@
 
   "speakers": [{
     "name": "Ulises Nucamendi",
-    "profilePic": "assets/img/speakers/bear.jpg",
+    "profilePic": "assets/img/speakers/ulises.jpg",
     "twitter": "ionicframework",
     "about": "Ulises is the head of the cosmology group.",
     "location": "Everywhere",
@@ -38,7 +38,7 @@
     "phone": ""
   }, {
     "name": "Gabriela Garcia",
-    "profilePic": "assets/img/speakers/cheetah.jpg",
+    "profilePic": "assets/img/speakers/gaby.jpg",
     "twitter": "ionicframework",
     "about": "Gaby is Phd Student interested in models of modified gravity.",
     "location": "Everywhere",
@@ -46,7 +46,7 @@
     "phone": ""
   }, {
     "name": "Patronicio Perez",
-    "profilePic": "assets/img/speakers/duck.jpg",
+    "profilePic": "assets/img/speakers/patro.jpg",
     "twitter": "ionicframework",
     "about": "Patro is a Phd student interested in cosmology and observational constraits",
     "location": "Everywhere",
@@ -54,7 +54,7 @@
     "phone": ""
   }, {
     "name": "Roberto de Arcia",
-    "profilePic": "assets/img/speakers/eagle.jpg",
+    "profilePic": "assets/img/speakers/robert.jpg",
     "twitter": "ionicframework",
     "about": "Robert is Phd Student interested in models of modified gravity.",
     "location": "Everywhere",
@@ -62,8 +62,8 @@
     "phone": ""
   }, {
     "name": "Efrain Torres-Lomas",
-    "profilePic": "assets/img/speakers/elephant.jpg",
-    "twitter": "ionicframework",
+    "profilePic": "assets/img/speakers/efrain.jpg",
+    "twitter": "Efrain_T_L",
     "about": "Efrain is a visitor Phd student interested in early cosmology, inflation and reheating models.",
     "location": "Everywhere",
     "email": "efrain@fisica.ugto.mx",
